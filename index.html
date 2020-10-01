@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        MY Html Form!
+    </title>
+</head>    
+  
+<body>
+   
+    <form action="lec1&2.html" >
+        <label for="username"> Username: </label>
+        <input  required type="text" id="username" name="username">
+        <br><br>
+
+        <label for="password"> Password: </label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        Select your gender :    <br><br>
+        
+        <input type="radio" id="male" name="gender" value="male"> 
+        <label for="male">male  </label>
+        
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+        <br><br>
+        
+        Select your city :  
+        <select id="city" name="city">
+            <option value="pune">  Pune</option>
+            <option value="mumbai">  Mumbai </option>
+            <option value="thane">  Thane </option>
+        </select><br><br>
+
+        <label for="txt"> Write about yourself</label><br><br>
+        <textarea rows="10" cols="25" name="txt" id="txt" placeholder="My name is..."></textarea><br><br>    
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>  
